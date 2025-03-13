@@ -64,7 +64,7 @@ linkage_matrix = linkage(condensed_distance, method='average')
 
 
 # 2 CLUSTERING
-# Cluster compounds using a distance threshold (e.g., 0.3 → Tanimoto similarity ≈ 0.7)
+# Cluster compounds using a distance threshold (e.g., 0.3 → Tanimoto similarity ≈ 0.7, base setting is for threshold is 0.3, library screening is 0.5)
 cluster_threshold = 0.5
 
 # Assign cluster labels using the same threshold.
