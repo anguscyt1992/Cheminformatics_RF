@@ -1,7 +1,7 @@
 
 # Performs breakdown of SMILES to Morgan fragments and using Random forest to identify important fragments contributing to the specific Tierpsy features
 
-# 1. SMILES file
+# 1. SMILES_Analysis.py
 # Calculates Tanimoto similarity, gives a dendrogram of hierarchal clusters based on distance of similarity and a CSV summary file
 
 # 2. RF file
